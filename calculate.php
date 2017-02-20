@@ -16,17 +16,17 @@
   switch ($type) {
     case 1:
     $sum=$bath*$USD;
-    echo $bath." Bath = ".($sum)." Yen";
+    echo $bath." Bath = ".($sum)." USD";
     break;
 
     case 2: 
     $sum=$bath*$VND;
-    echo $bath." Bath = ".($sum)." Dollar";
+    echo $bath." Bath = ".($sum)." VND";
     break;
 
     case 3: 
     $sum=$bath*$MYR;
-    echo $bath." Bath = ".($sum)." Euro";
+    echo $bath." Bath = ".($sum)." MYR";
     break;
 
     default:
