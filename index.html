@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/reset.css">
+  	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+<h1>MONEY EXCHANGE RATE</h1>
+<form action="calculate.php" method="post">
+	<input type="text" name="bath" class="input" placeholder="กรอกจำนวนเงิน (บาท)" onKeyUp="if(isNaN(this.value)){ alert('กรุณากรอกตัวเลข'); this.value='';}">
+	<select name="type" class="type">
+		<option value="1">USD</option>
+		<option value="2">VND</option>
+		<option value="3">MYR</option>
+	</select>
+	<input type="submit" name="submit" value="calculate" class="submit">
+</form>
+
+</div>
+</body>
+</html>
