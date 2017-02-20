@@ -1,0 +1,95 @@
+
+@font-face {
+    font-family: 'moonbold';
+    src: url('../font/moon_bold-webfont.eot');
+    src: url('../font/moon_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/moon_bold-webfont.woff2') format('woff2'),
+         url('../font/moon_bold-webfont.woff') format('woff'),
+         url('../font/moon_bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('../font/roboto-light-webfont.eot');
+    src: url('../font/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto-light-webfont.woff2') format('woff2'),
+         url('../font/roboto-light-webfont.woff') format('woff'),
+         url('../font/roboto-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	background: white;
+}
+h1{
+	font-family: 'moonbold';
+	text-align: center;	
+	margin-bottom: 10px;
+	font-size: 32px;
+	color: #000;
+}
+
+h2 {
+	text-align: center;
+	letter-spacing: 0.5px;
+	margin: 10px 0 30px;
+	font-family: sans-serif;
+	color: #959595;
+}
+.wrapper{
+	width: 500px;
+	height: 60px;
+	margin: 250px auto;
+
+}
+.input{
+	width: 280px;
+	height: 50px;
+	background-color: #fff;
+	border-style: none;
+	padding:0 0 0 20px;
+	border-bottom:solid #959595 1px;
+	font-size: 14px;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+.type{
+	width: 90px;
+	height: 50px;
+	border-radius: 1px;
+	background-color: #fff;
+	border-style: none;
+	border-bottom:1px solid #959595;
+    -webkit-appearance:button;
+    -webkit-user-select:none;
+    background-image: url("../img/icon1.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+    border-radius: 1px;
+    margin-left: 2px;
+    font-family: 'robotolight';
+    font-size: 14px;
+    padding-left: 10px;
+}
+.submit{
+	margin-left: 197px;
+	margin-top: 50px;
+	height: 50px;
+	width: 100px;
+	background: #000;
+	box-shadow: 0px 5px 10px #d7d7d7;
+	color: white;
+	border-style: none;
+	cursor: pointer;
+	letter-spacing: 1px;
+
+
+}
+.submit:hover{
+	background: #808285;
+	color: white;
+}
